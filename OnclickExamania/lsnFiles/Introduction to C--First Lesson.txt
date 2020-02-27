@@ -1,0 +1,16 @@
+This the First file of the Inreoduction to C programming course.
+
+Course Outline :
+1.	Basic theorem about the C programming are going to be disscussed over here
+2.	History of C Programming
+3. 	Header files and libraries to include
+4.	Class And Functions
+5.	Variables and Datatypes
+6.	Intializing variable / Declaring Variable
+7.	Arithmatical Terms
+8.	Logical Terms
+9.	Built In Functions
+10.	Reading Data from Users.
+11. 	Showing outputs.
+
+etc...

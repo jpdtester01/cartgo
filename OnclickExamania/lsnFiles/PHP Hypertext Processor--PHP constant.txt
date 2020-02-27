@@ -1,0 +1,64 @@
+<b>PHP Constants</b>
+A constant is an <b>identifier</b> (name) for a simple value. The value cannot be changed during the script.
+
+A valid constant name starts with a letter or underscore <b>(no $ sign before the constant name)</b>.
+
+Note: Unlike variables, constants are automatically global across the entire script.
+
+<b>Create a PHP Constant</b>
+To create a constant, use the define() function.
+
+<b>Syntax</b>
+
+define(name, value, case-insensitive)
+
+<b>Parameters:</b>
+
+name: Specifies the name of the constant
+value: Specifies the value of the constant
+case-insensitive: Specifies whether the constant name should be case-insensitive. Default is false
+
+<b>Example</b>
+Create a constant with a case-sensitive name:
+
+<?php
+define("GREETING", "Welcome to W3Schools.com!");
+echo GREETING;
+?>
+
+<b>Example</b>
+Create a constant with a case-insensitive name:
+
+<?php
+define("GREETING", "Welcome to W3Schools.com!", true);
+echo greeting;
+?>
+<b>PHP Constant Arrays</b>
+In PHP7, you can create an Array constant using the define() function.
+
+<b>Example</b>
+Create an Array constant:
+
+<?php
+define("cars", [
+    "Alfa Romeo",
+    "BMW",
+    "Toyota"
+]);
+echo cars[0];
+?>
+Constants are Global
+Constants are automatically global and can be used across the entire script.
+
+<b>Example</b>
+This example uses a constant inside a function, even if it is defined outside the function:
+
+<?php
+define("GREETING", "Welcome to W3Schools.com!");
+
+function myTest() {
+    echo GREETING;
+}
+ 
+myTest();
+?>
