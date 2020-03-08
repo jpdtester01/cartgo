@@ -1,0 +1,15 @@
+{
+  "name": "online_jury",
+  "version": "1.0.0",
+  "description": "online_jury",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "web_projects"
+  },
+  "author": "udoy",
+  "license": "ISC"
+}
