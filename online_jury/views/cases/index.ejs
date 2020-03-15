@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Homepage</title>
+<link rel="stylesheet" type="text/css" href="abc/style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<table style="width:100%; border-style:dashed;">
+	<tr style="color:black">
+    
+	 <th> <a href="/cases/caselist">Case list </a></th>
+	 <th> <a href="/cases/library.ejs">Online Library </a></th>
+	 <th> <a href="/cases/judgelist">Judges List </a></th>
+	 <th> <a href="/cases/notes.ejs" >Notes </a></th>
+   <% for(var i=0; i < user.length; i++){ %>
+	 <th> <a href="/cases/edit/<%= user[i].id %>">👨 Update information</a></th>
+   <% } %>
+	 <th>| <a href="/logout" style="color:red"> Logout</a> |</th>
+  </tr>
+  </table>
+<header>
+	
+  <h2>Online jury</h2>
+</header>
+<section>
+  <nav>
+      <p style="color:red"> Top News</p>
+    <ul>
+      <li><a href="http://www.supremecourt.gov.bd/web/?page=case_search.php&menu=11">Suprem court</a></li>
+      <li><a href="http://bdlaws.minlaw.gov.bd/">Laws of Bangladesh</a></li>
+      <li><a href="http://www.judiciary.org.bd/en/subordinate-courts">Judisiary services</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Timeline</h1>
+</head>
+<body>
+  
+  <table style="width:100%">
+  <% for(var i=0; i< user.length; i++){ %>
+  
+  <tr>
+    <th>Case name</th>
+    <th>Description</th> 
+    <th>Status</th>
+  </tr>
+  <tr>
+    <td><%= user[i].case_name %></td>
+    <td><%= user[i].description %></td>
+    <td><%= user[i].status %></td>
+  </tr>
+  <% } %>
+</table>
+  </article>
+</section>
+
+<footer>
+  <div class="copyright-wrapper">
+  <div class="container">
+    <p>&copy; Copyright 2020, Onlinejury . All Rights Reserved.</p>
+  </div>
+</div>
+</footer>
+
+</body>
+</html>

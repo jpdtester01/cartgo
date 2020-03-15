@@ -1,0 +1,40 @@
+body{
+  background: #324A54;
+}
+
+
+.header{
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 120px;
+  padding: 40px 0px;
+ 
+}
+.header h2{
+  color: #EEE3E5;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 55px;
+  padding-bottom: 20px;
+
+}
+.header h5{
+  color: #EEE3E5;
+  font-size: 25px;
+  font-weight: 500;
+  padding-bottom: 30px;
+  
+}
+.header a{
+  border: 1px solid  #EEE3E5;
+  padding: 8px 20px;
+  text-decoration: none;
+  color:  #EEE3E5;
+  transition: 1s;
+  background: transparent;
+}
+.header a:hover{
+  background:  #EEE3E5;
+  color: black;
+}
+

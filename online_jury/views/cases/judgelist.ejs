@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Judgelist</title>
+</head>
+<body>
+  <h2>Judge List</h2>
+<table style="width:100%">
+  <% for(var i=0; i< user.length; i++){ %>
+  <tr>
+    <th>Judge name</th>
+    <th>Contact</th> 
+  </tr>
+  <tr>
+    <th><%= user[i].username %></th>
+    <th><%= user[i].contact %></th>
+  </tr>
+  <% } %>
+</table>
+  <a href="/cases"> Back</a>
+ </body>
+</html>
