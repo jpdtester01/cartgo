@@ -1,0 +1,762 @@
+<style id="applicationStylesheet" type="text/css">
+	.mediaViewInfo {
+		--web-view-name: Web 1920 – 2;
+		--web-view-id: Web_1920__2;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: Web_1920__2;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Web_1920__2 {
+		position: absolute;
+		width: 100%;
+		height: 1080px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Web 1920 – 2;
+		--web-view-id: Web_1920__2;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	#Lower_Body {
+		fill: rgba(96,142,249,1);
+	}
+	.Lower_Body {
+		position: absolute;
+		overflow: visible;
+		width: 100%;
+		height: 557px;
+		left: 0px;
+		top: 523px;
+	}
+	#cartgo {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 123px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Kanit;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 43px;
+		color: rgba(0,0,0,1);
+	}
+	#Group_2 {
+		position: absolute;
+		width: 812px;
+		height: 48px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_5 {
+		fill: transparent;
+		stroke: rgba(121,159,248,0.529);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_5 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.431));
+		position: absolute;
+		overflow: visible;
+		width: 830px;
+		height: 66px;
+		left: 0px;
+		top: 0px;
+	}
+	#Group_3 {
+		position: absolute;
+		width: 31px;
+		height: 29px;
+		left: 765px;
+		top: 7px;
+		overflow: visible;
+	}
+	#Ellipse_1 {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 4px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ellipse_1 {
+		position: absolute;
+		overflow: visible;
+		width: 26px;
+		height: 26px;
+		left: 0px;
+		top: 0px;
+	}
+	#Line_3 {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 4px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_3 {
+		overflow: visible;
+		position: absolute;
+		width: 13.657px;
+		height: 13.657px;
+		left: 23px;
+		top: 21px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#supermarket {
+		position: absolute;
+		width: 35px;
+		height: 34.063px;
+		left: 1730px;
+		top: 22.883px;
+		overflow: visible;
+	}
+	#Group_5 {
+		position: absolute;
+		width: 35px;
+		height: 34.063px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Group_4 {
+		position: absolute;
+		width: 35px;
+		height: 34.063px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Path_1 {
+		fill: rgba(0,0,0,1);
+	}
+	.Path_1 {
+		overflow: visible;
+		position: absolute;
+		width: 7.181px;
+		height: 7.181px;
+		left: 7.545px;
+		top: 26.882px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_2 {
+		fill: rgba(0,0,0,1);
+	}
+	.Path_2 {
+		overflow: visible;
+		position: absolute;
+		width: 7.181px;
+		height: 7.181px;
+		left: 23.148px;
+		top: 26.882px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_3 {
+		fill: rgba(0,0,0,1);
+	}
+	.Path_3 {
+		overflow: visible;
+		position: absolute;
+		width: 35px;
+		height: 24.927px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_Holder {
+		fill: rgba(186,234,255,0.09);
+	}
+	.Icon_Holder {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.278));
+		position: absolute;
+		overflow: visible;
+		width: 100%;
+		height: 460px;
+		left: 0px;
+		top: 81px;
+	}
+	#Rectangle_7 {
+		fill: rgba(26,199,118,1);
+	}
+	.Rectangle_7 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.251));
+		background: rgba(26,199,118,1);
+		border-radius: 30px;
+		position: absolute;
+		overflow: visible;
+		width: 144px;
+		height: 144px;
+		padding: 20px;
+		left: 250px;
+		top: 142px;
+	}
+	#Rectangle_33 {
+		fill: rgba(26,199,118,1);
+	}
+	.Rectangle_33 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.251));
+		background: rgba(26,199,118,1);
+		border-radius: 30px;
+		position: absolute;
+		overflow: visible;
+		width: 144px;
+		height: 144px;
+		padding: 20px;
+		left: 250px;
+		top: 318px;
+	}
+	#Rectangle_13 {
+		fill: rgba(26,124,199,1);
+	}
+	.Rectangle_13 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.251));
+		background: rgba(26,124,199,1);
+		border-radius: 30px;
+		position: absolute;
+		overflow: visible;
+		width: 144px;
+		height: 144px;
+		padding: 20px;
+		left: 456px;
+		top: 142px;
+	}
+	#Rectangle_34 {
+		fill: rgba(26,124,199,1);
+	}
+	.Rectangle_34 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.251));
+		background: rgba(26,124,199,1);
+		border-radius: 30px;
+		position: absolute;
+		overflow: visible;
+		width: 144px;
+		height: 144px;
+		padding: 20px;
+		left: 456px;
+		top: 318px;
+	}
+	#Rectangle_11 {
+		fill: rgba(83,203,195,1);
+	}
+	.Rectangle_11 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.251));
+		background: rgba(83,203,195,1);
+		border-radius: 30px;
+		position: absolute;
+		overflow: visible;
+		width: 144px;
+		height: 144px;
+		padding: 20px;
+		left: 661px;
+		top: 142px;
+	}
+	#Rectangle_35 {
+		fill: rgba(83,203,195,1);
+	}
+	.Rectangle_35 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.251));
+		background: rgba(83,203,195,1);
+		border-radius: 30px;
+		position: absolute;
+		overflow: visible;
+		width: 144px;
+		height: 144px;
+		padding: 20px;
+		left: 661px;
+		top: 318px;
+	}
+	#Rectangle_12 {
+		fill: rgba(255,114,114,1);
+	}
+	.Rectangle_12 {
+		filter: drop-shadow(0px 3px 6px rgba(37, 37, 37, 0.251));
+		background: rgba(255,114,114,1);
+		border-radius: 30px;
+		position: absolute;
+		overflow: visible;
+		width: 144px;
+		height: 144px;
+		padding: 20px;
+		left: 866px;
+		top: 142px;
+	}
+	#Rectangle_36 {
+		fill: rgba(255,114,114,1);
+	}
+	.Rectangle_36 {
+		filter: drop-shadow(0px 3px 6px rgba(37, 37, 37, 0.251));
+		background: rgba(255,114,114,1);
+		border-radius: 30px;
+		position: absolute;
+		overflow: visible;
+		width: 144px;
+		height: 144px;
+		padding: 20px;
+		left: 866px;
+		top: 318px;
+	}
+	#Rectangle_18 {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_18 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.141));
+		position: absolute;
+		overflow: visible;
+		width: 230px;
+		height: 406px;
+		left: 382px;
+		top: 584px;
+	}
+	#Rectangle_19 {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_19 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.141));
+		position: absolute;
+		overflow: visible;
+		width: 230px;
+		height: 406px;
+		left: 610px;
+		top: 584px;
+	}
+	#Rectangle_20 {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_20 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.141));
+		position: absolute;
+		overflow: visible;
+		width: 230px;
+		height: 406px;
+		left: 837px;
+		top: 584px;
+	}
+	#Rectangle_21 {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_21 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.141));
+		position: absolute;
+		overflow: visible;
+		width: 230px;
+		height: 406px;
+		left: 1065px;
+		top: 584px;
+	}
+	#DEALS_OF_THE_DAY {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.071));
+		left: -100px;
+		top: 681px;
+		position: absolute;
+		overflow: visible;
+		width: 344px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 34px;
+		color: rgba(255,255,255,1);
+	}
+	#Rectangle_17 {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_17 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.059));
+		position: absolute;
+		overflow: visible;
+		width: 348px;
+		height: 26px;
+		left: -100px;
+		top: 780px;
+	}
+	#Ellipse_2 {
+		fill: rgba(255,114,114,1);
+	}
+	.Ellipse_2 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 98px;
+		height: 98px;
+		left: 287px;
+		top: 732px;
+	}
+	#Ellipse_3 {
+		fill: rgba(255,114,114,1);
+	}
+	.Ellipse_3 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 98px;
+		height: 98px;
+		left: 1642px;
+		top: 732px;
+	}
+	#Union_4 {
+		fill: rgba(255,0,0,1);
+	}
+	.Union_4 {
+		overflow: visible;
+		position: absolute;
+		width: 178px;
+		height: 48px;
+		left: 1064px;
+		top: 890px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Union_5 {
+		fill: rgba(255,0,0,1);
+	}
+	.Union_5 {
+		overflow: visible;
+		position: absolute;
+		width: 178px;
+		height: 48px;
+		left: 837px;
+		top: 890px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Union_6 {
+		fill: rgba(255,0,0,1);
+	}
+	.Union_6 {
+		overflow: visible;
+		position: absolute;
+		width: 178px;
+		height: 48px;
+		left: 610px;
+		top: 890px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Union_7 {
+		fill: rgba(255,0,0,1);
+	}
+	.Union_7 {
+		overflow: visible;
+		position: absolute;
+		width: 178px;
+		height: 48px;
+		left: 382px;
+		top: 890px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Rectangle_29 {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_29 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 174px;
+		height: 159px;
+		left: 411px;
+		top: 612px;
+	}
+	#Rectangle_30 {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_30 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 174px;
+		height: 159px;
+		left: 638px;
+		top: 612px;
+	}
+	#Rectangle_31 {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_31 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 174px;
+		height: 159px;
+		left: 866px;
+		top: 612px;
+	}
+	#Rectangle_32 {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_32 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 174px;
+		height: 159px;
+		left: 1093px;
+		top: 612px;
+	}
+	#PRODUCT__IMAGE {
+		left: 420px;
+		top: 653px;
+		position: absolute;
+		overflow: visible;
+		width: 139px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(0,0,0,1);
+	}
+	#Product_Name {
+		left: 417px;
+		top: 793px;
+		position: absolute;
+		overflow: visible;
+		width: 139px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 19px;
+		color: rgba(0,0,0,1);
+	}
+	#PRICE {
+		left: 457px;
+		top: 832px;
+		position: absolute;
+		overflow: visible;
+		width: 59px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 19px;
+		color: rgba(0,0,0,1);
+	}
+	#ID20_OFF {
+		left: 393px;
+		top: 894px;
+		position: absolute;
+		overflow: visible;
+		width: 145px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 33px;
+		color: rgba(255,255,255,1);
+	}
+	#Group_6 {
+		position: absolute;
+		width: 162px;
+		height: 141px;
+		left: 614px;
+		top: 793px;
+		overflow: visible;
+	}
+	#Product_Name_bv {
+		left: 24px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 139px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 19px;
+		color: rgba(0,0,0,1);
+	}
+	#PRICE_bw {
+		left: 64px;
+		top: 39px;
+		position: absolute;
+		overflow: visible;
+		width: 59px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 19px;
+		color: rgba(0,0,0,1);
+	}
+	#ID20_OFF_bx {
+		left: 0px;
+		top: 101px;
+		position: absolute;
+		overflow: visible;
+		width: 145px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 33px;
+		color: rgba(255,255,255,1);
+	}
+	#Group_7 {
+		position: absolute;
+		width: 162px;
+		height: 141px;
+		left: 845px;
+		top: 793px;
+		overflow: visible;
+	}
+	#Product_Name_bz {
+		left: 24px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 139px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 19px;
+		color: rgba(0,0,0,1);
+	}
+	#PRICE_b {
+		left: 64px;
+		top: 39px;
+		position: absolute;
+		overflow: visible;
+		width: 59px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 19px;
+		color: rgba(0,0,0,1);
+	}
+	#ID20_OFF_b {
+		left: 0px;
+		top: 101px;
+		position: absolute;
+		overflow: visible;
+		width: 145px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 33px;
+		color: rgba(255,255,255,1);
+	}
+	#Group_8 {
+		position: absolute;
+		width: 162px;
+		height: 141px;
+		left: 1072px;
+		top: 793px;
+		overflow: visible;
+	}
+	#Product_Name_b {
+		left: 24px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 139px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 19px;
+		color: rgba(0,0,0,1);
+	}
+	#PRICE_ca {
+		left: 64px;
+		top: 39px;
+		position: absolute;
+		overflow: visible;
+		width: 59px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 19px;
+		color: rgba(0,0,0,1);
+	}
+	#ID20_OFF_ca {
+		left: 0px;
+		top: 101px;
+		position: absolute;
+		overflow: visible;
+		width: 145px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 33px;
+		color: rgba(255,255,255,1);
+	}
+	#PRODUCT__IMAGE_b {
+		left: 647px;
+		top: 653px;
+		position: absolute;
+		overflow: visible;
+		width: 139px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(0,0,0,1);
+	}
+	#PRODUCT__IMAGE_ca {
+		left: 877px;
+		top: 653px;
+		position: absolute;
+		overflow: visible;
+		width: 139px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(0,0,0,1);
+	}
+	#PRODUCT__IMAGE_cb {
+		left: 1102px;
+		top: 653px;
+		position: absolute;
+		overflow: visible;
+		width: 139px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(0,0,0,1);
+	}
+	.img-below-tag{
+		width: 80px;
+		height: 80px;
+	}
+</style>
+<script id="applicationScript">

@@ -1,0 +1,1272 @@
+<style id="applicationStylesheet" type="text/css">
+	.mediaViewInfo {
+		--web-view-name: Supplier Form;
+		--web-view-id: Supplier_Form;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: Supplier_Form;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Supplier_Form {
+		position: absolute;
+		width: 100%;
+		height: 1080px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Supplier Form;
+		--web-view-id: Supplier_Form;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	#Form_Background {
+		fill: rgba(250,250,250,0.949);
+	}
+	.Form_Background {
+		position: absolute;
+		overflow: visible;
+		width: 100%;
+		height: 888px;
+		left: 0px;
+		top: 0px;
+	}
+	#Navbar {
+		fill: rgba(245,245,245,1);
+	}
+	.Navbar {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.039));
+		position: fixed;
+		overflow: visible;
+		width: 1938px;
+		height: 99px;
+		left: 0px;
+		top: -2px;
+	}
+	#Footer_supplier {
+		position: absolute;
+		width: 100%;
+		height: 200px;
+		left: 0px;
+		top: 880px;
+		overflow: visible;
+		background: rgba(236,236,236,1);
+	}
+	#Base {
+		fill: rgba(236,236,236,1);
+	}
+	.Base_supplier {
+		overflow: visible;
+		position: absolute;
+		width: 100%;
+		height: 200px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_29 {
+		position: absolute;
+		width: 82px;
+		height: 120px;
+		left: 250px;
+		top: 22px;
+		overflow: visible;
+	}
+	#HELP {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 41px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(0,0,0,1);
+	}
+	#Payments_Shipping_Cancellation {
+		left: 0px;
+		top: 31px;
+		position: absolute;
+		overflow: visible;
+		width: 83px;
+		white-space: nowrap;
+		line-height: 20px;
+		margin-top: -6px;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 8px;
+		color: rgba(0,0,0,1);
+	}
+	#Group_30 {
+		position: absolute;
+		width: 57px;
+		height: 119px;
+		left: 380px;
+		top: 22px;
+		overflow: visible;
+	}
+	#POLICY {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 58px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(0,0,0,1);
+	}
+	#Return_Policy_Warranty_Policy_ {
+		left: 0px;
+		top: 30px;
+		position: absolute;
+		overflow: visible;
+		width: 57px;
+		white-space: nowrap;
+		line-height: 20px;
+		margin-top: -6px;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 8px;
+		color: rgba(0,0,0,1);
+	}
+	#Group_28 {
+		position: absolute;
+		width: 64px;
+		height: 142px;
+		left: 122px;
+		top: 22px;
+		overflow: visible;
+	}
+	#ABOUT {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 57px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(0,0,0,1);
+	}
+	#Contact_Us_Who_We_Are_Become_A {
+		left: 0px;
+		top: 33px;
+		position: absolute;
+		overflow: visible;
+		width: 65px;
+		white-space: nowrap;
+		line-height: 20px;
+		margin-top: -6px;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 8px;
+		color: rgba(0,0,0,1);
+	}
+	#Group_35 {
+		position: absolute;
+		width: 216px;
+		height: 72.001px;
+		left: 736px;
+		top: 23px;
+		overflow: visible;
+	}
+	#Symbol_11__1 {
+		position: absolute;
+		width: 16px;
+		height: 16.001px;
+		left: 68px;
+		top: 55.999px;
+		overflow: visible;
+	}
+	#Rectangle_392 {
+		fill: transparent;
+	}
+	.Rectangle_392 {
+		position: absolute;
+		overflow: visible;
+		width: 16px;
+		height: 16px;
+		left: 0px;
+		top: 0px;
+	}
+	#Path_1 {
+		fill: rgba(0,0,0,1);
+	}
+	.Path_1 {
+		overflow: visible;
+		position: absolute;
+		width: 8.355px;
+		height: 16px;
+		left: 4px;
+		top: 0.001px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Symbol_12__1 {
+		position: absolute;
+		width: 16px;
+		height: 16px;
+		left: 36px;
+		top: 56.001px;
+		overflow: visible;
+	}
+	#Rectangle_393 {
+		fill: transparent;
+	}
+	.Rectangle_393 {
+		position: absolute;
+		overflow: visible;
+		width: 16px;
+		height: 16px;
+		left: 0px;
+		top: 0px;
+	}
+	#Path_2 {
+		fill: rgba(0,0,0,1);
+	}
+	.Path_2 {
+		overflow: visible;
+		position: absolute;
+		width: 16px;
+		height: 12.978px;
+		left: 0px;
+		top: 1.999px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Symbol_13__1 {
+		position: absolute;
+		width: 16px;
+		height: 16px;
+		left: 0px;
+		top: 56px;
+		overflow: visible;
+	}
+	#Path_3 {
+		fill: rgba(0,0,0,1);
+	}
+	.Path_3 {
+		overflow: visible;
+		position: absolute;
+		width: 16px;
+		height: 16px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#GET_EXCLUSIVE_OFFERS_AND_UPDAT {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 204px;
+		white-space: nowrap;
+		line-height: 12px;
+		margin-top: -0.5px;
+		text-align: left;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 11px;
+		color: rgba(0,0,0,1);
+	}
+	#Group_24 {
+		position: absolute;
+		width: 216px;
+		height: 22px;
+		left: 0px;
+		top: 19px;
+		overflow: visible;
+	}
+	#Rectangle_130 {
+		fill: transparent;
+		stroke: rgba(0,0,0,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_130 {
+		position: absolute;
+		overflow: visible;
+		width: 216px;
+		height: 22px;
+		left: 0px;
+		top: 0px;
+	}
+	#Rectangle_411 {
+		fill: rgba(0,0,0,1);
+	}
+	.Rectangle_411 {
+		position: absolute;
+		overflow: visible;
+		width: 56px;
+		height: 22px;
+		left: 160px;
+		top: 0px;
+	}
+	#SIGN_UP {
+		left: 175px;
+		top: 27px;
+		position: absolute;
+		overflow: visible;
+		width: 26px;
+		white-space: nowrap;
+		line-height: 12px;
+		margin-top: -3px;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 6px;
+		color: rgba(255,255,255,1);
+	}
+	#Enter_email_address_here {
+		left: 6px;
+		top: 27px;
+		position: absolute;
+		overflow: visible;
+		width: 73px;
+		white-space: nowrap;
+		line-height: 12px;
+		margin-top: -3px;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 6px;
+		color: rgba(80,80,80,1);
+	}
+	#Group_37 {
+		position: absolute;
+		width: 57px;
+		height: 100px;
+		left: 520px;
+		top: 22px;
+		overflow: visible;
+	}
+	#Group_31 {
+		position: absolute;
+		width: 57px;
+		height: 19px;
+		left: 0.001px;
+		top: 0px;
+		overflow: visible;
+	}
+	#SOCIAL {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 58px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(0,0,0,1);
+	}
+	#Group_33 {
+		position: absolute;
+		width: 55px;
+		height: 72px;
+		left: 0px;
+		top: 28px;
+		overflow: visible;
+	}
+	#Facebook_Instagram_YouTube_Wha {
+		left: 19.001px;
+		top: 2px;
+		position: absolute;
+		overflow: visible;
+		width: 37px;
+		white-space: nowrap;
+		line-height: 20px;
+		margin-top: -6px;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 8px;
+		color: rgba(0,0,0,1);
+	}
+	#Group_32 {
+		position: absolute;
+		width: 12px;
+		height: 72px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#youtube {
+		position: absolute;
+		width: 12px;
+		height: 12px;
+		left: 0.001px;
+		top: 40px;
+		overflow: visible;
+	}
+	#facebook {
+		position: absolute;
+		width: 12px;
+		height: 12px;
+		left: 0.001px;
+		top: 0px;
+		overflow: visible;
+	}
+	#instagram {
+		position: absolute;
+		width: 12px;
+		height: 12px;
+		left: 0.001px;
+		top: 20px;
+		overflow: visible;
+	}
+	#whatsapp {
+		position: absolute;
+		width: 12px;
+		height: 12px;
+		left: 0.001px;
+		top: 60px;
+		overflow: visible;
+	}
+	#Payment_Method {
+		position: absolute;
+		width: 105px;
+		height: 125px;
+		left: 1090px;
+		top: 19px;
+		overflow: visible;
+	}
+	#Rectangle_419 {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_419 {
+		position: absolute;
+		overflow: visible;
+		width: 49px;
+		height: 22px;
+		left: 56px;
+		top: 18px;
+	}
+	#Rectangle_418 {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_418 {
+		position: absolute;
+		overflow: visible;
+		width: 49px;
+		height: 22px;
+		left: 0px;
+		top: 19px;
+	}
+	#Rectangle_417 {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_417 {
+		position: absolute;
+		overflow: visible;
+		width: 49px;
+		height: 22px;
+		left: 56px;
+		top: 74px;
+	}
+	#Rectangle_432 {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_432 {
+		position: absolute;
+		overflow: visible;
+		width: 49px;
+		height: 22px;
+		left: 56px;
+		top: 103px;
+	}
+	#Rectangle_431 {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_431 {
+		position: absolute;
+		overflow: visible;
+		width: 49px;
+		height: 22px;
+		left: 56px;
+		top: 46px;
+	}
+	#PAYMENT_OPTIONS {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 104px;
+		white-space: nowrap;
+		line-height: 12px;
+		margin-top: -0.5px;
+		text-align: left;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 11px;
+		color: rgba(0,0,0,1);
+	}
+	#ID1 {
+		position: absolute;
+		width: 49px;
+		height: 22px;
+		left: 0px;
+		top: 47px;
+		overflow: visible;
+	}
+	#ID22 {
+		position: absolute;
+		width: 49px;
+		height: 22px;
+		left: 0px;
+		top: 75px;
+		overflow: visible;
+	}
+	#if-union-pay-2593673_86618 {
+		position: absolute;
+		width: 49px;
+		height: 22px;
+		left: 0px;
+		top: 103px;
+		overflow: visible;
+	}
+	#transparent-01 {
+		position: absolute;
+		width: 49px;
+		height: 22px;
+		left: 56px;
+		top: 19px;
+		overflow: visible;
+	}
+	#Mastercard-01 {
+		position: absolute;
+		width: 49px;
+		height: 22px;
+		left: 56px;
+		top: 47px;
+		overflow: visible;
+	}
+	#Bkash_Vector_Logo_Converted-01 {
+		position: absolute;
+		width: 49px;
+		height: 22px;
+		left: 0px;
+		top: 19px;
+		overflow: visible;
+	}
+	#CASH_ON_DELIVERY {
+		opacity: 0.44;
+		left: 63px;
+		top: 79px;
+		position: absolute;
+		overflow: visible;
+		width: 33px;
+		white-space: nowrap;
+		line-height: 7px;
+		margin-top: -0.5px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 6px;
+		color: rgba(0,0,0,1);
+	}
+	#POS {
+		opacity: 0.44;
+		left: 61px;
+		top: 105px;
+		position: absolute;
+		overflow: visible;
+		width: 37px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: rgba(0,0,0,1);
+	}
+	#Navbar_Elements {
+		position: fixed;
+		width: 1304px;
+		height: 64px;
+		left: 308px;
+		top: 9px;
+		overflow: visible;
+	}
+	#Group_1 {
+		position: absolute;
+		width: 122px;
+		height: 64px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: Home_Page.html;
+		cursor: pointer;
+	}
+	#cartgo {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 123px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Kanit;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 43px;
+		color: rgba(0,0,0,1);
+	}
+	#Group_9 {
+		position: absolute;
+		width: 938px;
+		height: 48px;
+		left: 161px;
+		top: 8px;
+		overflow: visible;
+	}
+	#Group_2 {
+		position: absolute;
+		width: 938px;
+		height: 48px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_5 {
+		fill: transparent;
+		stroke: rgba(121,159,248,0.529);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_5 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.431));
+		position: absolute;
+		overflow: visible;
+		width: 956px;
+		height: 66px;
+		left: 0px;
+		top: 0px;
+	}
+	#Path_4 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(121,159,248,0.529);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_4 {
+		overflow: visible;
+		position: absolute;
+		width: 938px;
+		height: 48px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Rectangle_6 {
+		fill: rgba(13,82,245,0.549);
+	}
+	.Rectangle_6 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 82px;
+		height: 66px;
+		left: 874px;
+		top: 0px;
+	}
+	#Group_3 {
+		position: absolute;
+		width: 31px;
+		height: 29px;
+		left: 891px;
+		top: 7px;
+		overflow: visible;
+	}
+	#Ellipse_1 {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 4px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ellipse_1 {
+		position: absolute;
+		overflow: visible;
+		width: 26px;
+		height: 26px;
+		left: 0px;
+		top: 0px;
+	}
+	#Line_3 {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 4px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_3 {
+		overflow: visible;
+		position: absolute;
+		width: 13.656px;
+		height: 13.657px;
+		left: 23px;
+		top: 21px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Select_Catergory {
+		fill: rgba(111,149,238,1);
+		stroke: rgba(184,204,251,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Select_Catergory {
+		position: absolute;
+		overflow: visible;
+		width: 190px;
+		height: 48px;
+		left: 0px;
+		top: 0px;
+	}
+	#Select_Category {
+		left: 0px;
+		top: 15px;
+		position: absolute;
+		overflow: visible;
+		width: 135px;
+		height: 18px;
+		line-height: 27px;
+		margin-top: -6px;
+		text-align: center;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	#Polygon_1 {
+		fill: rgba(255,255,255,1);
+	}
+	.Polygon_1 {
+		overflow: hidden;
+		position: absolute;
+		width: 10px;
+		height: 8px;
+		transform: translate(-1246px, -15px) matrix(1,0,0,1,1411.9999,35) rotate(180deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+		cursor: pointer;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: Dropdown.html;
+	}
+	#user {
+		position: absolute;
+		width: 29px;
+		height: 29px;
+		left: 1139px;
+		top: 18px;
+		overflow: visible;
+	}
+	#heart {
+		fill: rgba(0,0,0,1);
+	}
+	.heart {
+		overflow: visible;
+		position: absolute;
+		width: 29px;
+		height: 23.589px;
+		left: 1207px;
+		top: 21px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#shopping-bag {
+		position: absolute;
+		width: 29px;
+		height: 29px;
+		left: 1275px;
+		top: 18px;
+		overflow: visible;
+	}
+	#Rectangle_422 {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_422 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.059));
+		position: relative;
+		overflow: visible;
+		width: 1264px;
+		height: 729px;
+		left: 67px;
+		top: 0px;
+	}
+	#Become_A_Vendor {
+		left: 205px;
+		top: 171px;
+		position: absolute;
+		overflow: visible;
+		width: 359px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 45px;
+		color: rgba(0,0,0,1);
+	}
+	#Start_Selling_on_Cartgo {
+		left: 205px;
+		top: 261px;
+		position: absolute;
+		overflow: visible;
+		width: 253px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(0,0,0,1);
+	}
+	#Form {
+		position: absolute;
+		width: 488px;
+		height: 351px;
+		left: 691px;
+		top: 316px;
+		overflow: visible;
+	}
+	#Group_45 {
+		position: absolute;
+		width: 488px;
+		height: 50px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_423 {
+		fill: rgba(249,249,249,1);
+		stroke: rgba(245,245,245,1);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_423 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.059));
+		position: absolute;
+		overflow: visible;
+		width: 377px;
+		height: 68px;
+		left: 129px;
+		top: 0px;
+	}
+	#Full_Name {
+		left: 0px;
+		top: 15px;
+		position: absolute;
+		overflow: visible;
+		width: 274px;
+		height: 21px;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(0,0,0,0.898);
+	}
+	#Group_44 {
+		position: absolute;
+		width: 487px;
+		height: 50px;
+		left: 1px;
+		top: 74px;
+		overflow: visible;
+	}
+	#Rectangle_424 {
+		fill: rgba(249,249,249,1);
+		stroke: rgba(245,245,245,1);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_424 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.059));
+		position: absolute;
+		overflow: visible;
+		width: 376px;
+		height: 68px;
+		left: 129px;
+		top: 0px;
+	}
+	#Country {
+		left: 0px;
+		top: 15px;
+		position: absolute;
+		overflow: visible;
+		width: 274px;
+		height: 21px;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(0,0,0,0.898);
+	}
+	#Group_46 {
+		position: absolute;
+		width: 488px;
+		height: 50px;
+		left: 0px;
+		top: 149px;
+		overflow: visible;
+	}
+	#Group_42 {
+		position: absolute;
+		width: 488px;
+		height: 50px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_425 {
+		fill: rgba(249,249,249,1);
+		stroke: rgba(245,245,245,1);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_425 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.059));
+		position: absolute;
+		overflow: visible;
+		width: 379px;
+		height: 68px;
+		left: 127px;
+		top: 0px;
+	}
+	#Company_Name {
+		left: 0px;
+		top: 15px;
+		position: absolute;
+		overflow: visible;
+		width: 274px;
+		height: 21px;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(0,0,0,0.898);
+	}
+	#Group_48 {
+		position: absolute;
+		width: 488px;
+		height: 52px;
+		left: 0px;
+		top: 299px;
+		overflow: visible;
+	}
+	#Email_Address {
+		left: 0px;
+		top: 16px;
+		position: absolute;
+		overflow: visible;
+		width: 274px;
+		height: 21px;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(0,0,0,0.898);
+	}
+	#Rectangle_433 {
+		fill: rgba(249,249,249,1);
+		stroke: rgba(245,245,245,1);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_433 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.059));
+		position: absolute;
+		overflow: visible;
+		width: 382px;
+		height: 70px;
+		left: 124px;
+		top: 0px;
+	}
+	#Group_47 {
+		position: absolute;
+		width: 488px;
+		height: 52px;
+		left: 0px;
+		top: 223px;
+		overflow: visible;
+	}
+	#Rectangle_426 {
+		fill: rgba(249,249,249,1);
+		stroke: rgba(245,245,245,1);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_426 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.059));
+		position: absolute;
+		overflow: visible;
+		width: 382px;
+		height: 70px;
+		left: 124px;
+		top: 0px;
+	}
+	#Mobile_Number {
+		left: 0px;
+		top: 16px;
+		position: absolute;
+		overflow: visible;
+		width: 274px;
+		height: 21px;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(0,0,0,0.902);
+	}
+	#Button {
+		position: absolute;
+		width: 191px;
+		height: 33px;
+		left: 987px;
+		top: 691px;
+		overflow: visible;
+	}
+	#Rectangle_429 {
+		fill: rgba(111,149,238,1);
+	}
+	.Rectangle_429 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 209px;
+		height: 51px;
+		left: 0px;
+		top: 0px;
+	}
+	#REGISTER {
+		left: 59px;
+		top: 7px;
+		position: absolute;
+		overflow: visible;
+		width: 74px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: rgba(255,255,255,1);
+	}
+	#Please_complete_the_form_below {
+		left: 688px;
+		top: 190px;
+		padding: 10px 20px;
+		position: absolute;
+		overflow: hidden;
+		width: 480px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(0,0,0,1);
+	}
+	#reg_form {
+		left: 688px;
+		top: 190px;
+		padding: 10px 20px;
+		position: absolute;
+		overflow: hidden;
+		width: 480px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(0,0,0,1);
+	}
+	#Lorem_ipsum_dolor_sit_amet_con {
+		left: 205px;
+		top: 325px;
+		position: absolute;
+		overflow: visible;
+		width: 323px;
+		height: 397px;
+		line-height: 25px;
+		margin-top: -7px;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11px;
+		color: rgba(0,0,0,0.322);
+	}
+	#Group_49 {
+		position: absolute;
+		width: 488px;
+		height: 23px;
+		left: 691px;
+		top: 269px;
+		overflow: visible;
+	}
+	#Account_Type {
+		left: 0px;
+		top: 1px;
+		position: absolute;
+		overflow: visible;
+		width: 130px;
+		height: 21px;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(0,0,0,0.902);
+	}
+	#Personal {
+		left: 171px;
+		top: 2px;
+		position: absolute;
+		overflow: visible;
+		width: 130px;
+		height: 21px;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(0,0,0,0.902);
+	}
+	#Business {
+		left: 359px;
+		top: 2px;
+		position: absolute;
+		overflow: visible;
+		width: 130px;
+		height: 21px;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(0,0,0,0.902);
+	}
+	#Ellipse_4 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ellipse_4 {
+		position: absolute;
+		overflow: visible;
+		width: 22px;
+		height: 22px;
+		left: 137px;
+		top: 0px;
+	}
+	#Ellipse_5 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ellipse_5 {
+		position: absolute;
+		overflow: visible;
+		width: 22px;
+		height: 22px;
+		left: 330px;
+		top: 0px;
+	}
+</style>
