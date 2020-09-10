@@ -1,7 +1,214 @@
-<style id="applicationStylesheet" type="text/css">
+@media only screen and (max-width:750px){
+	body{
+		height: 100%;
+	}
+	#desk-view{
+		display: none;
+	}
+	#desk-footer{
+		display: none;
+	}
+	#Navbar{
+		height: 130px;
+	}
+	.Navbar{
+		height: 130px;
+	}
+	#mob-view{
+		display: block;
+	}
+	#mob-footer{
+		display: block;
+		margin-top: 100px;
+		height:100%;
+	}
+	#Group_1 {
+		width: 		  100%;
+		position: absolute;
+		text-align: center;
+	}
+	#cartgo {
+		width: 100%;
+		position: absolute;
+		text-align: center;
+	}
+	#user {
+		position: absolute;
+		width: 29px;
+		height: 29px;
+		left: 0px;
+		top: 70px;
+		overflow: visible;
+	}
+	.heart {
+		overflow: visible;
+		position: absolute;
+		width: 29px;
+		height: 23.589px;
+		left: 40px;
+		top: 73px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#shopping-bag {
+		position: absolute;
+		width: 29px;
+		height: 29px;
+		left: 80px;
+		top: 70px;
+		overflow: visible;
+	}
+	.srcButton {
+		width:62px;
+		height:50px;
+		position:absolute;
+		left:100px;
+		top: 40px;
+		outline: none;
+		background:transparent;
+	}
+	.srcButton:hover {
+		background:dodgerblue;
+	}
+	#mob-elo{
+		font-size: 25px;
+		margin-left:120px;
+		margin-top: 70px;
+	}
+	.mob-menu{
+		position: relative;
+		left: 5%;
+	}
+	.sub-data{
+		position: absolute;
+		margin-top: 40px;
+		color: silver;
+	}
+	#seletor {
+		filter:right-shadow(0px 3px 6px rgb(, 0, 0.));
+		background-color:rgba(111,149,238,1);
+		position:relative;
+		width: 100%;
+		left: -20px;
+		margin-top: 20px;
+		padding:10px 40px 30px 10px;
+		text-align:left;
+		overflow: hidden;
+	}
 
+	#seletor a{
+		text-align: center;
+		color: white;
+		text-decoration: none;
+		margin-bottom: 5px;
+		border-bottom: 1px solid silver;
+	}
 
+	#selector a:hover{
+		color: silver;
+		padding: 4px;
+		text-decoration: none;
+	}
 
+	#prof{
+		filter:drop-shadow(0px 3px 6px rgb(1, 0, 0, 0.3));
+		background-color:white;
+		position:relative;
+		width: 100%;
+		left: -20px;
+		margin-top: 20px;
+		padding:10px 60px 5px 0px;
+		text-align:center;
+		text-decoration: none;
+	}
+	#wilist {
+		filter:drop-shadow(0px 3px 6px rgb(1, 0, 0, 0.3));
+		background-color:white;
+		position:relative;
+		width: 100%;
+		left: -20px;
+		margin-top: 20px;
+		padding:10px 60px 5px 0px;
+		text-align:center;
+	}
+	#carty {
+		filter:drop-shadow(0px 3px 6px rgb(1, 0, 0, 0.3));
+		background-color:white;
+		position:relative;
+		width: 100%;
+		height: 200px;
+		left: -20px;
+		margin-top: 20px;
+		padding:10px 40px 10px 10px;
+		text-align:center;
+		overflow: auto;
+	}
 
+	.Base {
+		overflow: visible;
+		position: absolute;
+		width: 100%;
+		height: 500px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
 
-</style>
+	#Footer {
+		position: absolute;
+		width: 100%;
+		height: 400px;
+		left: 0px;
+		top: 2360px;
+		overflow: visible;
+		background: rgba(236,236,236,1);
+	}
+	#Group_35 {
+		position: absolute;
+		width: 216px;
+		height: 72.001px;
+		left: 20%;
+		top: -90px;
+		overflow: visible;
+	}
+
+	#Payment_Method {
+		position: absolute;
+		width: 100%;
+		height: 125px;
+		left: 400px;
+		top: -90px;
+		overflow: visible;
+	}
+
+	.mob-footer-content{
+		position: absolute;
+		width: 100%;
+		height: 400px;
+		margin-left: -40px;
+		margin-top: 0px;
+	}
+	#Group_29 {
+		position: absolute;
+		width: 82px;
+		height: 120px;
+		overflow: visible;
+	}
+	#Group_30 {
+		position: absolute;
+		width: 57px;
+		height: 119px;
+		overflow: visible;
+	}
+	#Group_28 {
+		position: absolute;
+		width: 68px;
+		height: 142px;
+		overflow: visible;
+	}
+	#Group_37 {
+		position: absolute;
+		width: 57px;
+		height: 100px;
+		overflow: visible;
+	}
+}

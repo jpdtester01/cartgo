@@ -71,10 +71,8 @@
 				</div>
 				<div class="col-sm-6 col-md-7">
 					<div class="coupon">
-						<a href="/">Continue Shopping</a>
-						<h3>DISCOUNT COUPON CODE</h3>
-						<input type="text" placeholder="DISCOUNT COUPON CODE HERE..." />
-						<a href="">Apply Coupon</a>
+						<br><a href="/">Continue Shopping</a>
+						
 						<p><span>NOTE :</span> Shipping and Taxes are estimated and updated during checkout based on your billing and shipping information.</p>
 					</div>
 				</div>

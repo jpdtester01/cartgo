@@ -35,12 +35,13 @@
 		            <input value="" type="text" name="pname" required>
 		            <label for="exampleFormControlSelect1"><strong>Product category <span>*</span></strong></label>
 		            <select class="form-control" id="prodcatLb9" name="pcat" required="required">
-		              <option value="Category 1">category1</option>
-		              <option value="Category 2">category2</option>
-		              <option value="Category 3">category3</option>
-		              <option value="Category 4">category4</option>
-		              <option value="Category 5">category5</option>
-		              <option value="Category 6">category6</option>
+		              <option value="Phones & Accessories">&nbsp &nbsp Phones & Accessories &nbsp &nbsp</option>
+		              <option value="Electronics and Appliances">&nbsp &nbsp Electronics and Appliances &nbsp &nbsp</option>
+		              <option value="Clothing">&nbsp &nbsp Clothing &nbsp &nbsp</option>
+		              <option value="Food">&nbsp &nbsp Food &nbsp &nbsp</option>
+		              <option value="Automobile">&nbsp &nbsp Automobile &nbsp &nbsp</option>
+		              <option value="Home Furnishings">&nbsp &nbsp Home Furnishings &nbsp &nbsp</option>
+		              <option value="Computer & Laptops">&nbsp &nbsp Computer & Laptops &nbsp &nbsp</option>
 		            </select>
 					<label id="prodqtyLb6"><strong>Product Quantity</strong><span>*</span></label>
 		            <input value="" type="text" name="pqty" required>
@@ -51,6 +52,8 @@
 							<input type="text" name="pmrp" placeholder="Product MRP Price * " class="half" required>
 						</div>
 					</div>
+					<label id="briefLbl"><strong>Product Short Description</strong><span>*</span></label>
+		            <input value="" type="text" name="brief" required>
 		        </div>
 		      </div>
 			  <div class="col-sm-6 col-md-5">

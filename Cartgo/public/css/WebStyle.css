@@ -203,14 +203,7 @@
 		font-size: 8px;
 		color: rgba(0,0,0,1);
 	}
-	#Group_35 {
-		position: absolute;
-		width: 216px;
-		height: 72.001px;
-		left: 736px;
-		top: 23px;
-		overflow: visible;
-	}
+	
 	#Symbol_11__1 {
 		position: absolute;
 		width: 16px;
@@ -1268,5 +1261,43 @@
 		height: 22px;
 		left: 330px;
 		top: 0px;
+	}
+	.topper{
+		left: 150; 
+	}
+	.inp-field{
+		width: 350px;
+	}
+	.amvio{
+		width: 150px;
+		background-color: #6F95EE;
+		border: none;
+	}
+	.txt-righty{
+		float: right;
+	}
+	.leffer{
+		margin-left: 40%;
+	}
+	.reffer{
+		margin-left: 20%;
+	}
+	.button {
+  		background-color: #2D8BD1;
+  		border: none;
+  		color: white;
+  		padding: 2px 42px;
+  		text-align: center;
+  		text-decoration: none;
+  		display: inline-block;
+  		font-size: 16px;
+  		margin: 4px 2px;
+  		cursor: pointer;
+	}
+	.button2 {
+  		background-color: #E2EFF2;
+  		padding: 12px 42px; 
+  		color: 75C3D6; 
+  		border: 2px solid #008CBA;
 	}
 </style>

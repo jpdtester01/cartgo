@@ -49,11 +49,11 @@ Route::get('/shop/withtag/{searchType}/{value}','ShopController@Index2')->name('
 Route::get('/shop/withtag/{searchType}/{value}/{sorts}','ShopController@Index2')->name('Shop.Index2');
 Route::get('/shop/withtag/{searchType}/{value}/{sorts}/{min}/{max}','ShopController@Index2')->name('Shop.Index2');
 
-Route::get('/Order','OrderController@Index')->name('Order.Index');
+/*Route::get('/Order','OrderController@Index')->name('Order.Index');*/
 Route::get('/SrcOrder/{ord}','OrderController@SrcOrder')->name('Order.SrcOrder');
 Route::get('/Coupon','CouponController@Index')->name('Coupon.Index');
 
-Route::get('/checkout','CartController@checkout')->name('Shop.checkout');
+Route::get('/checkout','CartController@checkout')->name('Cart.checkout');
 
 Route::get('/SrcAcc/{uname}','accountController@SrcAcc')->name('account.SrcAcc');
 
@@ -61,8 +61,12 @@ Route::get('/payments','ManagerialController@Payments')->name('Managerial.Paymen
 Route::get('/Conditions','ManagerialController@Conditions')->name('Managerial.Conditions');
 Route::get('/SiteMap','ManagerialController@SiteMap')->name('Managerial.SiteMap');
 Route::get('/services','ManagerialController@services')->name('Managerial.services');
+Route::get('/dispute','ManagerialController@dispute')->name('Managerial.dispute');
 Route::get('/Blog','ManagerialController@Blog')->name('Managerial.Blog');
 Route::get('/FAQ','ManagerialController@FAQ')->name('Managerial.FAQ');
+Route::get('/invite','ManagerialController@invite')->name('Managerial.invite');
+Route::get('/reward','ManagerialController@reward')->name('Managerial.reward');
+Route::get('/order','ManagerialController@order')->name('Managerial.order');
 
 Route::get('/logout','LogoutController@index')->name('logout.index');
 Route::get('/about',function(){
@@ -77,10 +81,11 @@ Route::get('addDetails','AddProductController@show')->name('AddProduct.show');
 Route::post('/AddProduct','AddProductController@Add')->name('AddProduct.Add');
 Route::post('/UpdateProduct','AddProductController@UpdateProduct')->name('AddProduct.UpdateProduct');
 
-Route::get('aboutus','aboutusController@show');
+Route::get('/aboutus','aboutusController@show');
 
-Route::get('contact','contactController@show');
+Route::get('/contact','contactController@show');
 Route::post('/feedback','contactController@feedback')->name('contact.feedback');
+
 
 Route::get('/lito', function () {
     return view('template.section');

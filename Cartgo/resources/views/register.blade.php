@@ -4,94 +4,100 @@
 <meta charset="utf-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Account Register Form</title>
+<title>Sign Up</title>
 @yield('heading')
 </head>
+
 <body>
-<div id="Supplier_Form">
-	<svg class="Form_Background">
-		<rect id="Form_Background" rx="0" ry="0" x="0" y="0" width="1920" height="888">
-		</rect>
-	</svg>
-	<svg class="Navbar">
-		<rect id="Navbar" rx="0" ry="0" x="0" y="0" width="1920" height="81">
-		</rect>
-	</svg>
+<div id="relate_Page">
+	<div class="min-main-display">
+		<div class="topper">
+			<div class="row">
+	            <div class="col-sm-6">
+	            	 
+	                        <div class="leffer form-row">
+	                        	<div class="form-group row">
+	                        		<h1>Sign Up<br></h1>
+	                            	<button type = "button" class = "social-reg-btn fbb" href="http://www.facebook.com/profile.php?id=">
+	   								   <i class="fa fa-facebook fa-lg"></i> &nbsp &nbsp &nbsp Sign Up with Facebook           
+	   								</button>
+	                    		</div>
+	                            <div class="form-group row">
+	                                <button type = "button" class = "social-reg-btn ggg" href="mailto:">
+	   								   <i class="fa fa-envelope-o fa-lg"></i> &nbsp &nbsp Sign Up with Gmail &nbsp &nbsp &nbsp
+	   								</button>
+	                            </div>
+	                            
+	                        </div>
+	                    </form> 
+	            </div>
+	            <div class="col-sm-6">
+	            	<form id="signup-form" action="/reg" method="post" name="reg"> @csrf
+	           		<h1>Other Options</h1>
+						
+						<div class="reg-form">
 
-						<!-- REgister Div Back -->
+							<p class="err-data">@foreach($errors->all() as $err)
+								{{$err}} <br>
+									@endforeach</p>
+							<small>Please enter your details below:</small>
+							<input type="text" name="username" class="field_acc" onkeyup="unameChk('{{csrf_token()}}')" placeholder="Username" required>
+							<small id="unameLbl"></small>
+							
+							<input type="password" class="field_acc" name="pass1" onkeyup="passChk('{{csrf_token()}}')" placeholder="Password" required>
+							<small id="pass1Lbl"></small>
+							
+							<input type="password" class="field_acc" name="pass2" placeholder="Re-type Password" required>
+							<small id="pass2Lbl"></small>
+							
+							<input type="text" name="email" class="field_acc" onkeyup="emailChk('{{csrf_token()}}')" placeholder="Email Address" required>
+							<small id="emailLbl"></small>
+							
+							<input type="text" name="contact" class="field_acc" onkeyup="contactChk('{{csrf_token()}}')" placeholder="Mobile Phone Number" required>
+							<small id="contactLbl"></small>
+							
+							<select name="Gender" class="Gender">
+								<option value="" disabled selected> Gender : </option>
+								<option value="Male"> Male</option>
+								<option value="Female"> Female</option>
+							</select>
 
-	<svg class="Rectangle_422">
-		<rect id="Rectangle_422" rx="51" ry="51" x="0" y="0" width="1246" height="711">
-		</rect>
-	</svg>
-						<!-- REgister Form -->
-	<div id="Become_A_Vendor">
-		<span>Register New Account</span>
-	</div>
-	<div id="Start_Selling_on_Cartgo">
-		<span>Become Member of Cartgo</span>
-	</div>
+							<input type="text" class="field_acc_addr" name="address" placeholder="Address">
+							
+							<input type="Submit" class="reg-btn" value="Sign up" />
+						
+						</div> 			<!-- reg-form -->
+	                 
+                    </form> 
+	            </div> <!-- col-sm-6 -->
+	            
+	        </div>   <!-- Row -->
+		</div>		<!-- Topper -->
+	
+	</div>		<!-- Min MAin Display -->
+									<!-- Advertisement -->
 
-	<!-- <div id="Button" class="Button">
-		<svg class="Rectangle_429">
-			<rect id="Rectangle_429" rx="4" ry="4" x="0" y="0" width="191" height="33">
-			</rect>
-		</svg>
-		<div id="REGISTER">
-			<span>REGISTER</span>
+		<div class="Advertisement_prod">
+			<div id="Group_39_prod">
+				<div id="Repeat_Grid_1">
+					<div id="Repeat_Grid_1_0" class="">
+						<svg class="Rectangle_421">
+							<rect id="Rectangle_421" rx="2" ry="2" x="0" y="0" width="596" height="256">
+							</rect>
+						</svg>
+					</div>
+					<div id="Repeat_Grid_1_1" class="">
+						<svg class="Rectangle_421_d">
+							<rect id="Rectangle_421_d" rx="2" ry="2" x="0" y="0" width="596" height="256">
+							</rect>
+						</svg>
+					</div>
+				</div>
+			</div>
 		</div>
-	</div> -->
-
-	<div id="reg_form">
-		<span>Please complete the form below:</span><br>
-		<form id="signup-form" action="/reg" method="post" name="reg">
-			@csrf
-			<p class="err-data">@foreach($errors->all() as $err)
-				{{$err}} <br>
-					@endforeach</p>
-			<p id="unameLbl">Username<span>*</span></p>
-			<input type="text" name="username" class="field_acc" onkeyup="unameChk('{{csrf_token()}}')" />
-			
-			<div class="col-sm-6">
-				<p id="emailLbl">E-mail Address<span>*</span></p>
-				<input type="text" name="email" class="field_acc" onkeyup="emailChk('{{csrf_token()}}')"/>
-			</div>
-			<div class="col-sm-6">
-				<p id="contactLbl">Contact Number<span>*</span></p>
-				<input type="text" name="contact" class="field_acc" onkeyup="contactChk('{{csrf_token()}}')"/>
-			</div><br><br><br>
-			<div class="col-sm-6">
-				<p id="emailLbll">Company (If Any)</p>
-				<input type="text" name="company" class="field_acc" >
-			</div>
-			<div class="col-sm-6">
-				<p id="emailLbll">Gender</p>
-				<select name="Gender" class="Gender">
-					<option value="" disabled selected> Select an option</option>
-					<option value="Male"> Male</option>
-					<option value="Female"> Female</option>
-				</select>
-			</div><br><br>
-			
-			<p id="addressLbl">Address</p>
-			<input type="text" class="field_acc_addr" name="address"/><br/><br/>
-			
-			<p id="pass1Lbl">Password<span>*</span></p>
-			<input type="password" class="field_acc" name="pass1" onkeyup="passChk('{{csrf_token()}}')" />
-			<p id="pass2Lbl">Confirm Password<span>*</span></p>
-			<input type="password" class="field_acc" name="pass2" required />
-			<p id="agreement"><input type="checkbox" value="checked" name="agreement" checked required> I accept all terms and conditions of CartGo</p>
-			<input type="submit" class="reg-btn" value="Sign up" />
-		</form>
-	</div>
 	
-	<div id="Lorem_ipsum_dolor_sit_amet_con">
-		<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam erat velit, hendrerit sed tempus auctor, tristique id diam. Fusce vitae magna consectetur, vehicula odio sed, cursus est. Phasellus vitae metus turpis. Quisque sit amet ante fringilla nisl commodo suscipit. In non lacus quis sapien laoreet pulvinar. Duis volutpat viverra turpis, quis lacinia urna lacinia ut. Donec dignissim, libero fermentum euismod rutrum, lorem augue vulputate purus, sit amet malesuada dolor neque sed lorem. Sed ipsum orci, iaculis a malesuada eget, porttitor vitae est. Nullam vehicula aliquam enim non scelerisque. Nulla posuere orci elit. In nec vestibulum urna. Suspendisse et purus in eros tincidunt porttitor. Duis pulvinar libero a maximus hendrerit. Mauris aliquet nisi quis mauris pharetra, non tempus magna placerat. Vestibulum neque odio, ultrices eu faucibus vitae, consectetur et orci. </span>
-	</div>
-	
+	@yield('footer-relate')
 	@yield('dashboard')
-	@yield('footer-sup')
-	
-</div>
+</div> <!-- /Relate Page -->
 </body>
 </html>

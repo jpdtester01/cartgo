@@ -17,7 +17,7 @@
 	
 	<div class="product-main-display">
 
-		<h1>{{count($users)}} <small> Accounts </small>{{count($prodData)}} <small> Accounts </small> {{count($OrderData)}} <small> Accounts </small></h1><hr>
+		<h1>{{count($users)}} <small> Accounts </small>{{count($prodData)}} <small> Products </small> {{count($OrderData)}} <small> Orders </small></h1><hr>
 		<div class="panel-group" id="checkout-progress">
 			<div class="panel panel-default">
 					<a class="collapsed" data-toggle="collapse" data-parent="#checkout-progress" href="#checkout-method">
@@ -73,7 +73,7 @@
 		</div>
 	</div> 		<!-- /Product Main Display -->
 	
-
+	
 
 	
 									<!-- Slider 2  -->
@@ -138,8 +138,8 @@
 			</div>
 		</div>
 	
-	@yield('dashboard')
 	@yield('footer-relate')
+	@yield('dashboard')
 </div> <!-- /Relate Page -->
 </body>
 </html>

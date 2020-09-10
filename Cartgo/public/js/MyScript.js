@@ -161,6 +161,7 @@ function AddWish(val, pid)
 	   },
 	   success:function(data) {
 		   $("#spp-"+pid).html(data);
+		   alert('Product has been added to your wishlist.');
 	   }
 	});
 }

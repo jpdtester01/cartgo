@@ -30,7 +30,7 @@ class contactController extends Controller
 			$hour=$mydate->format("H:i:s");
 			$TimeData = array("Hour"=>$hour);
 			
-			return view('contact')->with(compact('userData','SiteData','TimeData','CartData','imgData'));
+			return view('template.section',['site'=>'contact'])->with(compact('userData','SiteData','TimeData','CartData','imgData'));
     	}
     	else{
     		$SiteData = DB::table('tbl_sitedata')
@@ -39,7 +39,7 @@ class contactController extends Controller
 			$hour=$mydate->format("H:i:s");
 			$TimeData = array("Hour"=>$hour);
 			
-			return view('contact')->with(compact('userData','SiteData','TimeData','CartData'));
+			return view('template.section',['site'=>'contact'])->with(compact('userData','SiteData','TimeData','CartData'));
     	}
     }
 
@@ -126,6 +126,39 @@ class contactController extends Controller
 					'element'=> $ego[$i]->element,
 					'data'=> $ego[$i]->data
 				]);
+		}
+    }
+
+    public function AutoRev(Request $request){
+    	$data = array('Very nice product, I am Glad. THANK YOU','Enjoyed this product a lot, Got The delivery Fastest. Thank you for amazing service','Amazing Experience, Thanks a lot.','Awesome Delivery and packaging, Thanks for the intact product. Now i am trusting Cartgo A lot.','The product is authentic that i got. thank you so much for delivering such good product.','This can be a great gift as well, Thanks.','Amazing experience, Thank you Cartgo.','Cartgo delivery system is very organized and genuine, The product is very much well hearted taken.','Thank you Cartgo for this Awesome product','Just Loving this product very much, Thanks Cartgo.','Amazing Experience with genuinen product in hand, Thank you Cartgo for delivering.','Got the product in Cartgo at a very cheap price, the product is authentic, Thank you very much.','Cartgo product shipment is very much good, Thanks.','Amzing gift from Cartgo. Thank you.','I liked the product very much thank you.','Very good product, Thank you Cartgo','Fastest delivery ever, Thank you Cartgo.','Product is very Amazing, Using it very well, Thanks Cartgo.','Cartgo made the life much Easier, Thank you so much','Cartgo Many Many thanks for this awesome product, Congratulations for this great service ');
+		
+		$users = DB::table('users')->select('userid')->get();
+		
+		for($i=800152 ; $i<800175; $i++)
+		{
+			for($j=25 ; $j<30; $j++)
+			{
+				$user = $users[rand(1,165)]->userid;
+				
+				$status = DB::table('tbl_prod_review')
+					   -> where('user_id',$user)
+					   -> where('prod_id',$i)
+					   -> first();
+				
+				if($status!=null){
+					$user = $users[rand(1,165)]->userid;
+				}
+
+				$day = rand(10,30);
+				$status1= DB::table('tbl_prod_review')->insert([
+					'rev_no'	=> null,
+					'user_id'	=> $user,
+					'prod_id'	=> $i,
+					'rating'	=> rand(2,5),
+					'review'	=> $data[rand(0,19)],
+					'time'		=> $j.Date(' M, yy h:i')
+					]);
+			}
 		}
     }
 }

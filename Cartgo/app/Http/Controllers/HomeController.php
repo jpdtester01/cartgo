@@ -29,25 +29,24 @@ class HomeController extends Controller
 			$historyData=DB::table('tbl_prod_visits')
 						->leftJoin('tbl_prod_details','tbl_prod_visits.prod_id','=','tbl_prod_details.prod_id')
 						->where('tbl_prod_visits.userid', $req->session()->get('id'))
-						->get();
-			
+						->get();			
 			$trendProd = DB::table('tbl_prod_visits')
 					  -> leftJoin('tbl_prod_details','tbl_prod_visits.prod_id','=','tbl_prod_details.prod_id')
 					  -> groupBy('tbl_prod_visits.prod_id')
 					  -> orderBy(DB::raw('count(tbl_prod_visits.prod_id)'),'desc')
-					  -> get();
-			
+					  -> get();			
 			$CartData = DB::table('tbl_cart')
-					  ->leftJoin('tbl_prod_details','tbl_cart.prod_id','=','tbl_prod_details.prod_id')
-					  ->where('tbl_cart.user_id',$req->session()->get('id'))
-					  ->get();
-			$WishData = DB::table('tbl_wishlist')->leftJoin('tbl_prod_details','tbl_wishlist.prod_id','=','tbl_prod_details.prod_id')->where('tbl_wishlist.user_id',$req->session()->get('id'))->get();
-
-			$imgData = DB::table('tbl_prod_image')
-					  ->get();
-					  
+					 -> leftJoin('tbl_prod_details','tbl_cart.prod_id','=','tbl_prod_details.prod_id')
+					 -> where('tbl_cart.user_id',$req->session()->get('id'))
+					 -> get();
+			$WishData = DB::table('tbl_wishlist')
+					 -> leftJoin('tbl_prod_details','tbl_wishlist.prod_id','=','tbl_prod_details.prod_id')
+					 -> where('tbl_wishlist.user_id',$req->session()->get('id'))
+					 -> get();
+			$imgData  = DB::table('tbl_prod_image')
+					 -> get();					  
 			$SiteData = DB::table('tbl_sitedata')
-					  ->get();
+					 -> get();
 					  
 			$mydate=Carbon::now();
 			$hour=$mydate->format("H:i:s");

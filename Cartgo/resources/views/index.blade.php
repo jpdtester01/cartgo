@@ -4,11 +4,11 @@
 <meta charset="utf-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Home Page</title>
+<title>CartGo</title>
 @yield('heading')
 </head>
 <body>
-<div id="Home_Page">
+<div id="relate_Page">
 	<svg class="Lower_Body" viewBox="0 557 1920 1">
 		<path id="Lower_Body" d="M 1920 557 L 0 557 L 1920 557 Z">
 		</path>
@@ -16,48 +16,30 @@
 	<div class="Icon_Holder" viewBox="0 -200 1364 444">
 		<a href="/ComingSoon">
 		<div id="Group_13">
-			<div class="Rectangle_7">
-				<img class="Offer1" src="img/web/Off_1.png">
-			</div>
-			<div class="Rectangle_7">
-				<img class="Offer1" src="img/web/Off_1.png">
-			</div>
-			<div class="Rectangle_7">
-				<img class="Offer1" src="img/web/Off_1.png">
-			</div>
-			<div class="Rectangle_7">
-				<img class="Offer1" src="img/web/Off_1.png">
-			</div>
-			<div class="Rectangle_7">
-				<img class="Offer1" src="img/web/Off_1.png">
-			</div>
-			<div class="Rectangle_7">
-				<img class="Offer1" src="img/web/Off_1.png">
-			</div>
-			<div class="Rectangle_7">
-				<img class="Offer1" src="img/web/Off_1.png">
-			</div>
-			<div class="Rectangle_7">
-				<img class="Offer1" src="img/web/Off_1.png">
-			</div>
-			<div class="Rectangle_7">
-				<img class="Offer1" src="img/web/Off_1.png">
-			</div>
-			<div class="Rectangle_7">
-				<img class="Offer1" src="img/web/Off_1.png">
-			</div>
-			<div class="Rectangle_7">
-				<img class="Offer1" src="img/web/Off_1.png">
-			</div>
-			<div class="Rectangle_7">
-				<img class="Offer1" src="img/web/Off_1.png">
-			</div>
-			<div class="Rectangle_7">
-				<img class="Offer1" src="img/web/Off_1.png">
-			</div>
-			<div class="Rectangle_7">
-				<img class="Offer1" src="img/web/Off_1.png">
-			</div>
+			<a href="/shop/withtag/category/Computer & Laptops">
+			<div id="Group_148" class="fancy22">
+				<img id="cartgo_icons_Computer___acs"  src="img/web/cartgo_icons_Computer___acs.png" srcset="img/web/cartgo_icons_Computer___acs.png 1x, img/web/cartgo_icons_Computer___acs@2x.png 2x">
+			</div></a>
+			<a href="/shop/withtag/category/Phones & Accessories">
+			<div id="Group_148_cy" class="fancy22">
+				<img id="cartgo_icons_Computer___acs_c" src="img/web/cartgo_icons_Computer___acs_c.png" srcset="img/web/cartgo_icons_Computer___acs_c.png 1x, img/web/cartgo_icons_Computer___acs_c@2x.png 2x">
+			</div></a>
+			<a href="/shop/withtag/category/Clothing">
+			<div id="Group_148_c" class="fancy22">
+				<img id="cartgo_icons_Computer___acs_da" src="img/web/cartgo_icons_Computer___acs_da.png" srcset="img/web/cartgo_icons_Computer___acs_da.png 1x, img/web/cartgo_icons_Computer___acs_da@2x.png 2x">
+			</div></a>
+			<a href="/shop/withtag/category/Electronics and Appliances">
+			<div id="Group_148_da" class="fancy22">
+				<img id="cartgo_icons_Computer___acs_db" src="img/web/cartgo_icons_Computer___acs_db.png" srcset="img/web/cartgo_icons_Computer___acs_db.png 1x, img/web/cartgo_icons_Computer___acs_db@2x.png 2x">
+			</div></a>
+			<a href="/shop/withtag/category/Home Furnishings">
+			<div id="Group_148_db" class="fancy22">
+				<img id="cartgo_icons_Computer___acs_dd" src="img/web/cartgo_icons_Computer___acs_dd.png" srcset="img/web/cartgo_icons_Computer___acs_dd.png 1x, img/web/cartgo_icons_Computer___acs_dd@2x.png 2x">
+			</div></a>
+			<a href="/shop/withtag/category/Automobile">
+			<div id="Group_148_de" class="fancy22">
+				<img id="cartgo_icons_Computer___acs_dh" src="img/web/cartgo_icons_Computer___acs_dh.png" srcset="img/web/cartgo_icons_Computer___acs_dh.png 1x, img/web/cartgo_icons_Computer___acs_dh@2x.png 2x">
+			</div></a>
 		</div></a>
 	</div>
 	
@@ -107,6 +89,7 @@
 	<div id="Mobile__Accessories">
 		<span>Mobile & Accessories</span>
 	</div>
+	
 
 									<!-- Home Slider 2  -->
 
@@ -202,6 +185,64 @@
 	</div>
 
 
+									<!-- Product Slides (2) -->
+
+	<div id="Mobile__Accessories_Second">
+			<span>Computer & Laptops</span>
+		</div>
+	<div id="Product_Slides_Second">
+		<a href="/ComingSoon">
+		<div id="Group_23">
+			<div id="Group_27">
+				<svg class="Rectangle_405">
+					<rect id="Rectangle_405" rx="0" ry="0" x="0" y="0" width="392" height="567">
+					</rect>
+				</svg>
+				<div class="Rectangle_406">
+					<div class="sub-cat-1">
+						<img src="img/web/th.jpg" class="sub-cat-1">
+					</div>
+				</div>
+				<div class="Rectangle_407">
+					Big Sale!
+				</div>
+			</div>
+		</div>
+		<div id="Group_22">
+			<div id="Group_26">
+				<svg class="Rectangle_409">
+					<rect id="Rectangle_409" rx="0" ry="0" x="0" y="0" width="392" height="567">
+					</rect>
+				</svg>
+				<div class="Rectangle_406_c">
+					<div class="sub-cat-1">
+						<img src="img/web/th.jpg" class="sub-cat-1">
+					</div>
+				</div>
+				<div class="Rectangle_407">
+					New Arrival
+				</div>
+			</div>
+		</div>
+		<div id="Group_21">
+			<div id="Group_25">
+				<svg class="Rectangle_410">
+					<rect id="Rectangle_410" rx="0" ry="0" x="0" y="0" width="392" height="567">
+					</rect>
+				</svg>
+				<div class="Rectangle_406_da">
+					<div class="sub-cat-1">
+						<img src="img/web/th.jpg" class="sub-cat-1">
+					</div>
+				</div>
+				<div class="Rectangle_407">
+					20% OFF
+				</div>
+			</div>
+		</div></a>
+	</div>
+
+
 	 <!-- Arrow of slider here -->
 	<div id="Arrow_for_slider">
 		<svg class="Path_5" viewBox="4296.241 734 24.996 49.992">
@@ -231,9 +272,10 @@
 			</div>
 		</div>
 	</div>
+
+	@yield('footer')
 	@yield('dashboard')	
-	@yield('footer')	
 	
-</div>		<!-- /HomePage -->
+</div>		<!-- /Page -->
 </body>
 </html>

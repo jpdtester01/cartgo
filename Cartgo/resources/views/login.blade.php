@@ -7,32 +7,78 @@
 <title>Sign in</title>
 @yield('heading')
 </head>
+
 <body>
-<div id="Login_Page">
-	<svg class="Lower_Body" viewBox="0 557 1920 1">
-		<path id="Lower_Body" d="M 1920 557 L 0 557 L 1920 557 Z">
-		</path>
-	</svg>
-					<!-- Login Area -->
-	<div class="Icon_Holder" viewBox="0 -200 1364 444">
-		<div id="Group_13">
-			<form method="post"> @csrf
-				<div class="log-in-div">
-					@if(session()->has('msg')) <span class="err-msg">{{session()->get('msg')}}</span><br><br>{{session()->forget('msg')}}@endif		
-					<div class="log-to-div">
-						<h3>Account Sign in</h3>
-						<input type="text" name="identity" class="login-identity" placeholder="Enter Username or Email here" required><br>
-						<input type="password" name="pass" class="login-pass" placeholder="Enter Password" required><br>
-						<div class="log-btn-div">
-							<input type="Submit" name="Submit" class="log-btn" value="Sign in"><a href="#" class="forgetlink-login">Foget Password ?</a>
-						</div>
+<div id="relate_Page">
+	<div class="min-main-display">
+		<div class="topper">
+			<div class="row">
+	            <div class="col-sm-6">
+	            	 <form method="post"> @csrf
+	                        <div class="leffer form-row">
+	                        	<div class="form-group row">
+	                        		<h1>Login<br></h1>
+	                            	<button type = "button" class = "social-reg-btn fbb" href="http://www.facebook.com/profile.php?id=">
+	   								   <i class="fa fa-facebook fa-lg"></i> &nbsp &nbsp &nbsp Login with Facebook           
+	   								</button>
+	                    		</div>
+	                            <div class="form-group row">
+	                                <button type = "button" class = "social-reg-btn ggg" href="mailto:">
+	   								   <i class="fa fa-envelope-o fa-lg"></i> &nbsp &nbsp Login with Gmail &nbsp &nbsp &nbsp
+	   								</button>
+	                            </div>
+	                            <div class="form-group row">
+	                            	@if(session()->has('msg')) <h5><span class="err-msg">{{session()->get('msg')}}</span></h5>{{session()->forget('msg')}} @else <h5>Please enter your details below:</h5> @endif
+	                            </div>
+	                            <div class="form-group row">
+	                                        <input type="text" class="inp-field form-control" id="uname" name="identity" placeholder="Username / Phone Number" required>
+	                            </div>
+	                            <div class="form-group row">
+	                                        <input type="password" class="inp-field form-control" id="password" name="pass" placeholder="Password" required>   
+	                            </div>
+	                            <div class="form-group row">
+	                            	<button type="submit" class = "amvio btn btn-primary" name="submit">
+	   								   LOGIN      
+	   								</button>
+	   								<small class="txt-righty">Forget your password? <br><a href="#">Click Here</a></small>
+	                            </div>
+	                        </div>
+	                    </form> 
+	            </div>
+	            <div class="col-sm-6">
+	           		<div class="reffer col-sm-6 text-left">
+	            		<h1>Dont Have an Account?</h1>
+	            		<a class="button button2" href="/reg"><b>SIGN UP HERE</b></a>
+	            	</div>
+	            </div>
+	            
+	        </div>   <!-- Row -->
+		</div>		<!-- Topper -->
+	
+	</div>		<!-- Min MAin Display -->
+									<!-- Advertisement -->
+
+		<div class="Advertisement_prod">
+			<div id="Group_39_prod">
+				<div id="Repeat_Grid_1">
+					<div id="Repeat_Grid_1_0" class="">
+						<svg class="Rectangle_421">
+							<rect id="Rectangle_421" rx="2" ry="2" x="0" y="0" width="596" height="256">
+							</rect>
+						</svg>
+					</div>
+					<div id="Repeat_Grid_1_1" class="">
+						<svg class="Rectangle_421_d">
+							<rect id="Rectangle_421_d" rx="2" ry="2" x="0" y="0" width="596" height="256">
+							</rect>
+						</svg>
 					</div>
 				</div>
-			</form>
+			</div>
 		</div>
-	</div>
+	
+	@yield('footer-relate')
 	@yield('dashboard')
-	@yield('footer-login')
-</div>
+</div> <!-- /Relate Page -->
 </body>
 </html>

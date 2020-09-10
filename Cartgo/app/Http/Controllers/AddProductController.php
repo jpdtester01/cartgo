@@ -55,7 +55,8 @@ class AddProductController extends Controller
 				'pqty'    => 'required',
 				'psell'   => 'required',
 				'pmrp'    => 'required',
-				'pdetail' => 'required'
+				'pdetail' => 'required',
+				'brief'	  => 'required'
 			]);
 
 			if($Validation->fails()){
@@ -73,6 +74,7 @@ class AddProductController extends Controller
 			$status1= DB::table('tbl_prod_details')->insert([
 					'prod_id'           => null,
 					'prod_name'         => $req->pname,
+					'prod_brief'        => $req->brief,
 					'prod_details'      => $req->pdetail,
 					'prod_MRP_price'    => $req->pmrp,
 					'prod_SELLER_price' => $req->psell,

@@ -4,117 +4,104 @@
 <meta charset="utf-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Supplier Register Form</title>
+<title>Supplier Reg. Form</title>
 @yield('heading')
 </head>
-<body>
-<div id="Supplier_Form">
-	<svg class="Form_Background">
-		<rect id="Form_Background" rx="0" ry="0" x="0" y="0" width="1920" height="888">
-		</rect>
-	</svg>
-	<svg class="Navbar">
-		<rect id="Navbar" rx="0" ry="0" x="0" y="0" width="1920" height="81">
-		</rect>
-	</svg>
-	
-						<!-- Supplier Div Back -->
 
-	<svg class="Rectangle_422">
-		<rect id="Rectangle_422" rx="51" ry="51" x="0" y="0" width="1246" height="711">
-		</rect>
-	</svg>
-	<div id="Become_A_Vendor">
-		<span>Become A Vendor</span>
-	</div>
-	<div id="Start_Selling_on_Cartgo">
-		<span>Start Selling on Cartgo</span>
-	</div>
-	<div id="Form" class="Form">
-		<div id="Group_45">
-			<svg class="Rectangle_423">
-				<rect id="Rectangle_423" rx="0" ry="0" x="0" y="0" width="359" height="50">
-				</rect>
-			</svg>
-			<div id="Full_Name">
-				<span>Full Name</span>
-			</div>
-		</div>
-		<div id="Group_44">
-			<svg class="Rectangle_424">
-				<rect id="Rectangle_424" rx="0" ry="0" x="0" y="0" width="358" height="50">
-				</rect>
-			</svg>
-			<div id="Country">
-				<span>Country</span>
-			</div>
-		</div>
-		<div id="Group_46">
-			<div id="Group_42">
-				<svg class="Rectangle_425">
-					<rect id="Rectangle_425" rx="0" ry="0" x="0" y="0" width="361" height="50">
-					</rect>
-				</svg>
-				<div id="Company_Name">
-					<span>Company Name</span>
+<body>
+<div id="relate_Page">
+	<div class="min-main-display">
+		<div class="row row-content align-items-center">
+            <div class="col-sm-6 offset-sm-1">
+                <h1>Become a Vendor</h1>
+                <h3>Start Selling on Cartgo</h3>
+                <p>
+                	Go to reportaproblem.apple.com. Sign in with your Apple ID and password. If you see the "Report" or "Report a Problem" button next to the item that you want to request a refund for, click it. Follow the instructions on the page to choose the reason why you want a refund and submit your request.
+                </p>
+            </div>
+            <div class="col-sm-6">
+                <h4>Please complete the form below</h4>
+                 <form>
+                        <div class="form-row">
+                        	<div class="form-group row">
+                        		<label for="fullname" class="col-md-3 col-form-label">Account Type</label>
+                        			<div class="col-sm-6">
+                        				<div class="col-sm-6 text-left">
+                        					<input type="radio" class="form-check-input" id="one" name="personal" value="option1"></input>
+                                    		<label for="radioone" class="form-check-label">Personal</label>
+                                    	</div>
+                                    	<div class="col-sm-6 text-right">
+                            				<input type="radio" class="form-check-input" id="one" name="business" value="option2"></input>
+                                    		<label for="radiotwo" class="form-check-label">Business</label>
+                            			</div>
+                                    	
+                        			</div>
+                    		</div>
+                            <div class="form-group row">
+                        		<label for="fullname" class="col-md-3 col-form-label">Full Name</label>
+                        			<div class="col-sm-6">
+                            			<input type="text" class="form-control" id="fullname" name="fullname">
+                        			</div>
+                    		</div>
+                            <div class="form-group row">
+                                <label for="Mobile" class="col-md-3 col-form-label">Country</label>
+                                    <div class=" col-sm-6">
+                                        <input type="text" class="form-control" id="orderno" name="orderno">
+                                    </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="Mobile" class="col-md-3 col-form-label">Company Name</label>
+                                    <div class=" col-sm-6">
+                                        <input type="text" class="form-control" id="reason" name="reason">
+                                    </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="Mobile" class="col-md-3 col-form-label">Mobile Number</label>
+                                    <div class=" col-sm-6">
+                                        <input type="tel" class="form-control" id="mobnum" name="mobnum" placeholder="Mob. Number">
+                                    </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="Mobile" class="col-md-3 col-form-label">Email Address</label>
+                                    <div class="col-sm-6">
+                                        <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email@example.com">
+                                    </div>
+                            </div>
+                            <div class="col-sm-9 text-right">
+                               <button type = "button" class = "button">
+   								    REGISTER
+   								</button>
+                            </div>
+                        </div>
+                    </form>            
+            </div>
+            
+        </div>
+	
+	</div>		<!-- Min MAin Display -->
+									<!-- Advertisement -->
+
+		<div class="Advertisement_prod">
+			<div id="Group_39_prod">
+				<div id="Repeat_Grid_1">
+					<div id="Repeat_Grid_1_0" class="">
+						<svg class="Rectangle_421">
+							<rect id="Rectangle_421" rx="2" ry="2" x="0" y="0" width="596" height="256">
+							</rect>
+						</svg>
+					</div>
+					<div id="Repeat_Grid_1_1" class="">
+						<svg class="Rectangle_421_d">
+							<rect id="Rectangle_421_d" rx="2" ry="2" x="0" y="0" width="596" height="256">
+							</rect>
+						</svg>
+					</div>
 				</div>
 			</div>
 		</div>
-		<div id="Group_48">
-			<div id="Email_Address">
-				<span>Email Address</span>
-			</div>
-			<svg class="Rectangle_433">
-				<rect id="Rectangle_433" rx="0" ry="0" x="0" y="0" width="364" height="52">
-				</rect>
-			</svg>
-		</div>
-		<div id="Group_47">
-			<svg class="Rectangle_426">
-				<rect id="Rectangle_426" rx="0" ry="0" x="0" y="0" width="364" height="52">
-				</rect>
-			</svg>
-			<div id="Mobile_Number">
-				<span>Mobile Number</span>
-			</div>
-		</div>
-	</div>
-	<div id="Button" class="Button">
-		<svg class="Rectangle_429">
-			<rect id="Rectangle_429" rx="4" ry="4" x="0" y="0" width="191" height="33">
-			</rect>
-		</svg>
-		<div id="REGISTER">
-			<span>REGISTER</span>
-		</div>
-	</div>
-	<div id="Please_complete_the_form_below">
-		<span>Please complete the form below:</span>
-	</div>
-	<div id="Lorem_ipsum_dolor_sit_amet_con">
-		<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam erat velit, hendrerit sed tempus auctor, tristique id diam. Fusce vitae magna consectetur, vehicula odio sed, cursus est. Phasellus vitae metus turpis. Quisque sit amet ante fringilla nisl commodo suscipit. In non lacus quis sapien laoreet pulvinar. Duis volutpat viverra turpis, quis lacinia urna lacinia ut. Donec dignissim, libero fermentum euismod rutrum, lorem augue vulputate purus, sit amet malesuada dolor neque sed lorem. Sed ipsum orci, iaculis a malesuada eget, porttitor vitae est. Nullam vehicula aliquam enim non scelerisque. Nulla posuere orci elit. In nec vestibulum urna. Suspendisse et purus in eros tincidunt porttitor. Duis pulvinar libero a maximus hendrerit. Mauris aliquet nisi quis mauris pharetra, non tempus magna placerat. Vestibulum neque odio, ultrices eu faucibus vitae, consectetur et orci. </span>
-	</div>
-	<div id="Group_49">
-		<div id="Account_Type">
-			<span>Account Type</span>
-		</div>
-		<div id="Personal">
-			<span>Personal</span>
-		</div>
-		<div id="Business">
-			<span>Business</span>
-		</div>
-		<svg class="Ellipse_4">
-			<ellipse id="Ellipse_4" rx="11" ry="11" cx="11" cy="11">
-			</ellipse>
-		</svg>
-		<svg class="Ellipse_5">
-			<ellipse id="Ellipse_5" rx="11" ry="11" cx="11" cy="11">
-			</ellipse>
-		</svg>
-	</div>
+	
+	@yield('footer-relate')
 	@yield('dashboard')
-	@yield('footer-sup')
-</div>
+</div> <!-- /Relate Page -->
 </body>
 </html>
